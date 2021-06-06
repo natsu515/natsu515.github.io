@@ -1,0 +1,200 @@
+*{
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear{
+  clear:left;
+}
+
+.container{
+  max-width:1170px;
+  width:100%;
+  padding:0px 15px;
+  margin:0 auto;
+}
+
+.top-wrapper{
+  padding:180px 0px 100px 0px;
+  background-image:url(img/GKJC5905.PNG);
+  color:white;
+  background-size:cover;
+  text-align:center;
+}
+
+.top-wrapper img{
+  width:150px;
+}
+
+.top-wrapper h1{
+  opacity:0.8;
+  font-size:40px;
+  letter-spacing:5px;
+}
+
+.top-wrapper p{
+  opacity:0.7;
+  line-height: 30px;
+}
+
+header{
+  height:65px;
+  width: 100%;
+  background-color:rgba(49, 146, 150, 0.9);
+  position:fixed;
+  z-index: 10;
+  top:0
+  
+}
+
+.logo{
+  margin-top: 1px;
+  width:110px;
+}
+
+.header-left{
+  float:left;
+}
+
+.header-right {
+  float:right;
+  
+}
+
+.header-right a:hover{
+  background-color:rgba(226, 209, 115, 0.616);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
+}
+
+.header-right a{
+  transition:all 0.5s;
+  line-height:65px;
+  padding:0px 25px;
+  color:white;
+  display:inline-block;
+}
+
+.log1{
+  margin-right:10px;
+}
+
+.log2{
+  margin-right: 10px;
+}
+
+.profile-wrapper{
+  
+  padding-bottom:60px;
+  background-color:rgb(236, 233, 225);
+  text-align:center;
+}
+
+.heading{
+  padding:60px 0px 30px 0px;
+  color:#5f5d60;
+}
+
+.heading img{
+  width:120px;
+}
+
+.heading h2{
+  font-weight:normal;
+}
+
+.heading p{
+  width:80%;
+  display:inline-block;
+  margin-top:20px;
+  font-size:12px;
+  color:#88828a;
+}
+
+.lesson-wrapper{
+  padding-bottom:80px;
+  background-color:#e2e0d8;
+}
+
+.heading h3{
+  font-weight:normal;
+}
+
+.lesson{
+  float:left;
+  width:20%;
+  border-bottom:2px solid #9494a0;
+}
+
+.lesson-icon img{
+  width:190px;
+}
+
+.lesson p{
+  width:80%;
+  display:inline-block;
+  margin-top:20px;
+  font-size:12px;
+  color:#b3aeb5;
+}
+
+.artworks{
+  width:100%;
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+.art1 li{
+  display:inline-block;
+  flex-wrap: wrap;
+  width:25%;
+  margin:0px;
+  float: left; 
+}
+
+.art2 li{
+  display:inline-block;
+  flex-wrap: wrap;
+  width:25%;
+  margin:0px;
+  float: left;
+}
+
+h4{
+  font-weight:normal;
+}
+
+.artworks p{
+  font-size:12px;
+  color:#a7aaa5;
+}
+
+footer img{
+  width:80px;
+}
+
+footer p{
+  color:#b3aeb5;
+  font-size:12px;
+}
+
+footer{
+  height:150px;
+  padding-top:30px;
+  background-color: #5f5d60;
+}
