@@ -1,0 +1,206 @@
+# natsu515.github.io
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N.Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div  class="header-left">
+          <a href="#top">
+            <img class="logo" src="img/MLGX1928.PNG">
+          </a>
+        </div>
+
+        <span class="fa fa-bars menu-icon"></span>
+        <div class="header-right">
+          <a class="btn log1" href="#pro">profile</a>
+          <a class="btn log2" href="#cla">works</a>
+        </div>
+      </div>
+    </header>
+    <div id="top" class="top-wrapper">
+      <div class="container">
+        <img src="img/FRZE7027.PNG" >
+        <h1>portfolio</h1>
+        <p>Natsuki Yamada</p>
+      </div>
+    </div>
+    <div class="profile-wrapper">
+      <div class="container">
+        <div id="pro" class="heading">
+          <img src="img/EWWT4578.PNG">
+          <h2>profile</h2>
+          <p>山田菜月</p>
+          <p>1999年長野県生まれ</p>
+          <p>10歳の時にサルバドール・ダリの作品に感動して絵を描き始める </p>
+          <p>絵画だけでなく様々な表現技法を学ぶため、2018年近畿大学文芸学部芸術学科に入学</p>
+          <p>動植物を観察する中で見出した「静寂の中の輝き」を自身の制作テーマとし、日々制作に励んでいる</p>
+        </div>
+        <div id="cla" class="lessons">
+          <div class="container">
+            <div class="heading">
+              <h3>works</h3>
+            </div>
+            <div class="lessons">
+              <div class="lesson">
+                <div class="lesson-icon">
+                  <a href="#des">
+                    <img src="img/OKUO2140.PNG" >
+                  </a>
+                  <p>デッサン・ドローイング</p>
+                </div>
+                <p class="txt-contents"></p>
+              </div>
+              <div class="lesson">
+                <div class="lesson-icon">
+                  <a href="#3dc">
+                    <img src="img/UPOR8582.PNG" >
+                  </a>
+                  <p>3DCG</p>
+                </div>
+                <p class="txt-contents"></p>
+              </div>
+              <div class="lesson">
+                <div class="lesson-icon">
+                  <a href="#han">
+                    <img src="img/USQY0479.PNG" >
+                  </a>
+                  <p>版画</p>
+                </div>
+                <p class="txt-contents"></p>
+              </div>
+              <div class="lesson">
+                <div class="lesson-icon">
+                  <a href="#oil">
+                    <img src="img/KWEK6084.PNG" >
+                  </a>
+                  <p>油彩画</p>
+                </div>
+                <p class="txt-contents"></p>
+              </div>
+              <div class="lesson">
+                <div class="lesson-icon">
+                  <a href="#sen">
+                    <img src="img/QGQU3582.PNG" >
+                  </a>
+                  <p>染織</p>
+                </div>
+                <p class="txt-contents"></p>
+              </div>
+            </div>
+            <div class="artworks">
+              <br>
+              <div id="des">
+                <h4>デッサン・ドローイング</h4>
+                <img src="artworks/図7.jpg" width=33% >
+                <img src="artworks/図11.jpg" width=33%>
+                <img src="artworks/図9.jpg" width=16%>
+                <img src="artworks/図10.jpg" width=16%>
+                <img src="artworks/図12.jpg" width=24%>
+                <img src="artworks/図13.jpg" width=24%>
+                <img src="artworks/図14.jpg" width=24%>
+                <img src="artworks/図15.jpg" width=24%>
+
+                <img src="artworks/図16.jpg" width=33%>
+                <img src="artworks/図17.jpg" width=33%>
+                <img src="artworks/図18.jpg" width=33%>
+
+                <img src="artworks/図19.jpg" width=30%>
+                <img src="artworks/図20.jpg" width=24%>
+                <img src="artworks/図21.jpg" width=24%>
+              </div>
+              <div id="3dc">
+                <h4>3DCG</h4>
+                <img src="artworks/図1.jpg" width=60%>
+                <img src="artworks/図2.jpg" width=19%>
+                <img src="artworks/図3.jpg" width=19%>
+                <p>《きいろの部屋》(2020年) 制作時間：約15時間</p>
+                <p>コンセプトは「森の中のへんてこな部屋」です。</p>
+                <p>変なオブジェがあったり、誰もいないのにコップが倒れていたりといった、不思議な空気感を表現しようと試みました。</p>
+                <p> 階段の段差の上部分をガラス張りにし、側面はレンガ調のデザインにするなど、細かな部分にもこだわりました。</p>
+              </div>
+              <br>
+              <div id="han">
+                <h4>版画</h4>
+                <img src="artworks/図24.jpg" width=33%>
+                <p>《beetle-REPETITION3》シルクスクリーン, 210×297mm,2018年</p>
+                <p>カブトムシのデッサンを元に作った版を使い様々なバリエーションで制作し、服やバッグなどにも印刷しました。</p>
+                <img src="artworks/銅板.jpg" width=33%>
+                <p>《B》</p>
+                <p>銅版画,240×182mm,2018年</p>
+                <p>《B》は銅版画で、描写のほとんど全てをニードルを使用した彫りのみで表現し、点描でより細かな光を描き込もうとした作品です。</p>
+                <p>幼い頃好きだった英語の言葉遊びを描き込み、「過去への固執」をテーマに制作しました。</p>
+              </div>
+              <br>
+              <div id="oil">
+                <h4>油彩画</h4>
+                <img src="artworks/図26.jpg" width=40%>
+                <p>《innocent》油彩画,606×500mm,2017年 </p>
+                <p>赤ちゃんの無垢な表情を、「純粋」を花言葉にもつユリとともに表現しました。</p>
+                <img src="artworks/図27.jpg" width=24%>
+                <img src="artworks/図28.jpg" width=40%>
+                <p>《光の静物》油彩画,530×652mm,2018年</p>
+                <p>油彩画で初めて描いた静物画です。</p>
+                <p>絵具を「塗る」描き方(左)から「置く」描き方(右)へ変え、ガラスの固さや光の表現にもこだわりました。</p>
+                <img src="artworks/図29.jpg" width=40%>
+                <p>サルバドール・ダリ《記憶の固執》油彩画/模写,241×330mm,2019年 </p>
+                <img src="artworks/図30.jpg" width=40%>
+                <img src="artworks/図31.jpg" width=20% >
+                <p>ヨハネス・フェルメール《牛乳を注ぐ女》油彩画/模写,460×410mm,2018年 (右：制作過程)</p>
+                <p>大学１年生の時に取り組んだ模写では、描写力や色づくりが上達し、巨匠の作品から学ぶことも多く充実した時間でした。</p>
+                <img src="artworks/図32.jpg" width=40% >
+                <br>
+                <img src="artworks/図33.jpg" width=14% height=230px>
+                <img src="artworks/図34.jpg" width=14% height=230px>
+                <img src="artworks/図35.jpg" width=14% height=230px>
+                <p>《月の上で眠る》油彩画,606×455mm,2021年 (下：制作過程)</p>
+                <p>「月光」と「高貴」をテーマとした作品です。</p>
+                <p>彩度の高い色で一通り塗ってから暗い色を乗せ、ペインティングナイフで削って下の色を出すことで線的な表現を施しました。</p>
+              </div>
+              <br>
+              <div id="sen">
+                <h4>染織</h4>
+                <img src="artworks/図38.jpg" width=40%>
+                <br>
+                <img src="artworks/図36.jpg" width=20%>
+                <img src="artworks/図37.jpg" width=15%>
+                <p>《車窓》綴織/綿糸,羊毛糸,化学染料,600×420mm,2020年 (下：制作過程、デザイン画)</p>
+                <p>綴織り(つづれおり) は、経糸よりも太い緯糸を図柄の通りに織り込み、絵画的な表現を可能にする技法です。</p>
+                <p>早朝の無人駅の静けさと、朝焼けに照らされる鳥の姿を、太さ1mmの緯糸(羊毛糸)を織り込むことで表現しました。</p>
+                <img src="artworks/図39.jpg" width=50%>
+                <img src="artworks/図40.jpg" width=20%>
+                <p>《五月雨》綴織/綿糸,羊毛糸,化学染料,1170×1700mm,2020年 (右：織りはじめの様子)</p>
+                <p>タペストリー作品です。</p>
+                <p>雨上がりの木々から滴る光の粒からインスピレーションを得て、抽象的なデザインを考えました。</p>
+                <img src="artworks/図43.jpg" width=40%>
+                <br>
+                <img src="artworks/図41.jpg" width=20%>
+                <img src="artworks/図42.jpg" width=20%>
+                <p>《魚波》シルクスクリーン/浴衣地,化学染料,2019年 (下：デザイン画、同じ版で染めて仕立てた服)</p>
+                <p>シルクスクリーンの技法を用いて染めた浴衣です。</p>
+                <p>魚の大群が渦を巻くように泳いでいる様子をパターンのデザインにし、角度を変えながら染めていきました。</p>
+                <p>また同じデザインで、配色を変えて布を染め、洋服も仕立てました。</p>
+              </div>
+            </div>
+          </div>
+          <div class="clear">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+ <footer>
+   <div class="container">
+    <img src="img/FRZE7027.PNG" >
+    <p>Natsuki Yamada _ portfolio</p>
+   </div>
+ </footer>
+  </body>
+</html>
